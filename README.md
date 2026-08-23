@@ -1,2 +1,15 @@
-# CS-360-Mobile-App-Portfolio
-CS 360 mobile application portfolio artifact and reflection
+# CS 360 Mobile App Portfolio
+
+## Inventory Management App
+
+The goal of my application was to create a functional inventory management app that gives users a simple way to keep track of items and their quantities. The app was designed for users who need to quickly view and update inventory without working through a complicated interface. The main requirements included user authentication, persistent inventory data, the ability to add, edit, and delete inventory items, and support for SMS notifications when needed.
+
+The application includes a login screen that allows existing users to sign in and new users to create an account. After logging in, users can view their inventory and manage individual items. The inventory interface provides controls for adding new items, editing existing information, and deleting items that are no longer needed. I kept the interface straightforward, so the most common actions are easy to find and require as few steps as possible. Maintaining consistent controls and layouts throughout the application helped make the design easier to understand and use.
+
+When coding the application, I approached the project by separating the larger requirements into smaller features. I worked on authentication, database functionality, inventory management, and notifications individually before testing how they operated together. This made troubleshooting easier because I could isolate problems instead of trying to debug the entire application at once. This is a strategy I can continue using in future software projects because breaking a large problem into smaller components makes development and testing more manageable.
+
+I tested the application by running it in the Android emulator and manually verifying the major user actions. I tested creating accounts, logging in and out, adding inventory records, editing existing records, deleting records, and reopening different parts of the application to make sure the data behaved as expected. Testing was important because an interface can appear complete while still containing problems that only become visible through actual user interaction. The testing process helped me identify and correct problems with the inventory operations and confirm that the core application features worked together correctly.
+
+One area where I had to adapt during development was getting the different application components to work reliably together. There were situations where individual parts of the project appeared correct but did not behave as expected when the complete application was executed. I worked through these problems by testing changes individually, reviewing how data moved between the interface and database, and repeatedly running the application until the required operations performed correctly.
+
+I was particularly successful with the inventory-management portion of the application. The completed app allows a user to log in, view inventory records, create new records, edit existing items, and delete items through a functional mobile interface. This component demonstrates both my programming knowledge and my understanding of how database functionality can support a user-centered mobile application. Overall, the project gave me experience taking an application from the planning and UI design stages through coding, testing, and final implementation.
